@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:notes_app/Data/Note_provider.dart';
+import '../Data/Note_provider.dart';
 
 enum NoteMode {
   Adding,

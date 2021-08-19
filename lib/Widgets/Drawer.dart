@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:notes_app/Widgets/addPage.dart';
-import 'package:notes_app/Widgets/homePage.dart';
+import 'addPage.dart';
+import 'homePage.dart';
 
 class PersonalisedDrawer extends StatefulWidget {
   @override
@@ -22,7 +22,7 @@ class _PersonalisedDrawerState extends State<PersonalisedDrawer> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage("assets/try1.jpeg"),
+                        image: AssetImage("assets/try.jpg"),
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(50),
                     border: Border.all(),
@@ -32,7 +32,7 @@ class _PersonalisedDrawerState extends State<PersonalisedDrawer> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage("assets/try2.jpg"),
+                        image: AssetImage("assets/try.jpg"),
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(50),
                     border: Border.all(),

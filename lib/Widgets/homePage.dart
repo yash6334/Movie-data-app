@@ -1,9 +1,9 @@
 import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:notes_app/Widgets/Drawer.dart';
-import 'package:notes_app/Widgets/addPage.dart';
-import 'package:notes_app/Data/Note_provider.dart';
+import 'Drawer.dart';
+import 'addPage.dart';
+import '../Data/Note_provider.dart';
 
 class HomePage extends StatefulWidget {
   @override
